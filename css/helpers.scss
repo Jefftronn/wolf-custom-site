@@ -1,0 +1,113 @@
+/* Flex */
+
+.flex {
+    display: flex;
+}
+
+.flex1{
+    flex: 1 !important;
+}
+
+.flex2{
+    flex: 2 !important;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-start {
+    align-items: flex-start;
+}
+
+.ai-end {
+    align-items: flex-end;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-start {
+    justify-content: flex-start;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.jc-around {
+    justify-content: space-around;
+}
+
+.flex-dir-col{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+//Font Sizes
+
+p, .body{
+    font-size: 14px;
+    margin: 0;
+}
+
+a, .a {
+    font-size: 14px;
+    color: #83358b;
+    &:hover {
+        color: rgb(163, 66, 172);
+        text-decoration: none;
+    }
+}
+
+h4, .h4{
+    font-size: 16px !important;
+    font-weight: 700;
+    letter-spacing: unset;
+    margin: unset;
+}
+
+h3, .h3{
+    font-size: 18px !important;
+    font-weight: 700;
+    letter-spacing: unset;
+    margin: unset;
+}
+
+h2, .h2{
+    font-size: 24px !important;
+    font-weight: 200;
+    letter-spacing: unset;
+    margin: unset;
+}
+
+h1, .h1{
+    font-size: 30px !important;
+    font-weight: 700;
+    letter-spacing: unset;
+    margin: unset;
+}
+
+
+//Responsive
+.mobile-show{
+    display: none !important;
+}
+
+@media(max-width: 768px){
+    .mobile-show{
+        display: inherit !important;
+    }
+    
+    .mobile-hide{
+        display: none !important;
+    }
+}
