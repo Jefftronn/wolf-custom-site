@@ -54,60 +54,72 @@
 
 //Font Sizes
 
-p, .body{
-    font-size: 14px;
-    margin: 0;
-}
+// p, .body{
+//     font-size: 14px;
+//     margin: 0;
+// }
 
-a, .a {
-    font-size: 14px;
-    color: #83358b;
-    &:hover {
-        color: rgb(163, 66, 172);
-        text-decoration: none;
-    }
-}
+// a, .a {
+//     font-size: 14px;
+//     color: #83358b;
+//     &:hover {
+//         color: rgb(163, 66, 172);
+//         text-decoration: none;
+//     }
+// }
 
-h4, .h4{
-    font-size: 16px !important;
-    font-weight: 700;
-    letter-spacing: unset;
-    margin: unset;
-}
+// h4, .h4{
+//   font-size: 16px !important;
+//   font-weight: 700;
+//   letter-spacing: unset;
+//   margin: unset;
+// }
 
-h3, .h3{
-    font-size: 18px !important;
-    font-weight: 700;
-    letter-spacing: unset;
-    margin: unset;
-}
+// h3, .h3{
+//   font-size: 18px !important;
+//   font-weight: 700;
+//   letter-spacing: unset;
+//   margin: unset;
+// }
 
-h2, .h2{
-    font-size: 24px !important;
-    font-weight: 200;
-    letter-spacing: unset;
-    margin: unset;
-}
+// h2, .h2{
+//   font-size: 24px !important;
+//   font-weight: 200;
+//   letter-spacing: unset;
+//   margin: unset;
+// }
 
-h1, .h1{
-    font-size: 30px !important;
-    font-weight: 700;
-    letter-spacing: unset;
-    margin: unset;
-}
+// h1, .h1{
+//   font-size: 30px !important;
+//   font-weight: 700;
+//   letter-spacing: unset;
+//   margin: unset;
+// }
 
 
 //Responsive
 .mobile-show{
-    display: none !important;
+  display: none !important;
 }
 
 @media(max-width: 768px){
-    .mobile-show{
-        display: inherit !important;
-    }
-    
-    .mobile-hide{
-        display: none !important;
-    }
+  .mobile-show{
+    display: inherit !important;
+  }
+  
+  .mobile-hide{
+    display: none !important;
+  }
+}
+
+.squared-button {
+  border-radius: 0;
+  background-color: transparent;
+  border: 1px solid #fff;
+  transition: all 300ms ease;
+  &:hover {
+    border: 1px solid #000;
+    color: #000;
+    background-color: transparent;
+  }
 }
